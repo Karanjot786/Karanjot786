@@ -23,7 +23,7 @@ You can click the Preview link to take a look at your changes.
 </div>
 
 
- <h2>A Quote from a random Developer 🧬</h2>
+<summary> <h2>A Quote from a random Developer 🧬</h2></summary>
   | [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula)](https://github.com/piyushsuthar/github-readme-quotes) |
 |---|
   

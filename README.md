@@ -22,9 +22,10 @@ You can click the Preview link to take a look at your changes.
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karanjot786&layout=compact" />
 </div>
 
-
+<details>
 <h2><summary> A Quote from a random Developer 🧬</summary></h2>
   | [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula)](https://github.com/piyushsuthar/github-readme-quotes) |
 |---|
+</details>
   
 

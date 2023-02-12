@@ -5,7 +5,8 @@
 <a href="https://github.com/ryo-ma/github-profile-trophy">
   <img width=800 src="https://github-profile-trophy.vercel.app/?username=karanjot786&column=8&theme=gruvbox&no-frame=true"/>
 </a>
-
+## 🐦 Latest Tweet
+[![](https://gtce.itsvg.in/api?username=karanjotdulay)](https://github.com/VishwaGauravIn/github-twitter-card-embed)
 
 ---
 
@@ -39,8 +40,7 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=karanjot786&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-## 🐦 Latest Tweet
-[![](https://gtce.itsvg.in/api?username=karanjotdulay)](https://github.com/VishwaGauravIn/github-twitter-card-embed)
+
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)

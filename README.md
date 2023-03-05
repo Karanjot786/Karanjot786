@@ -23,7 +23,7 @@
   
   
 # 💫 About Me:
-🔭 I’m currently working on as a Student <br>👯 I’m looking to collaborate on Github<br>🤝 I’m looking for help with Web Development, C++ and Python <br>🌱 I’m currently learning Web Development <br>💬 Ask me about Anything<br>⚡ Fun fact You are viewing my profile.
+🔭 I’m currently working on as a ***Student*** <br>👯 I’m looking to collaborate on ***Github***<br>🤝 I’m looking for help with ***Web Development, C++ and Python*** <br>🌱 I’m currently learning ***Web Development*** <br>💬 Ask me about Anything<br>⚡ Fun fact ***You are viewing my profile.***
 
  
  

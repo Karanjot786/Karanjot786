@@ -1,0 +1,29 @@
+name: refresh readme
+
+on:
+  schedule:
+    - cron: "0 * * * *" # hourly; GitHub may delay 10-30min — greeting is bucketed coarse
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [scripts/build-readme.mjs, .github/workflows/readme.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node scripts/build-readme.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: refresh readme [skip ci]"
+          git push

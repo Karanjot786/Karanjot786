@@ -57,7 +57,7 @@ GSoC 2024 @ GA4GH · contributor to ELIXIR Cloud & AAI since 2023 · I write
 
 ## Building
 
-- [TermUI](https://github.com/${USER}/TermUI) · ${stars("TermUI")}★ · TypeScript framework for terminal UIs. JSX, hooks, animation, routing. 13 npm packages, 356 tests, no curses.
+- [TermUI](https://github.com/${USER}/TermUI) · ${stars("TermUI")}★ · TypeScript framework for terminal apps. Flexbox layout, JSX, hooks, animations, routing, hot reload. 5,018 tests, no curses, no C extensions.
 - [agent-skills-cli](https://github.com/${USER}/agent-skills-cli) · ${stars("agent-skills-cli")}★ · one command to install any skill into any AI coding agent. 175K+ skills indexed, 45 agents. All organic.
 - [GenZCareer](https://genzcareer.in) · AI job-search platform. Zero to prod in 3 months, multi-provider recommender (Gemini/OpenAI/Azure), 500+ users.
 - [CrateGen](https://github.com/${USER}/CrateGen) · GSoC 2024 Python lib converting GA4GH schemas to RO-Crate. FAIR-compliant, 40% faster data exchange.

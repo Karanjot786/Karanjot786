@@ -1,0 +1,36 @@
+name: tic-tac-toe
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  move:
+    # only game issues; title checked again in the script
+    if: startsWith(github.event.issue.title, 'ttt|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      # pass the untrusted title via env (NOT inline ${{ }}) to avoid shell injection
+      - run: node scripts/tictactoe.mjs
+        env:
+          TITLE: ${{ github.event.issue.title }}
+      - run: node scripts/build-readme.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md game/tictactoe.json
+          git diff --staged --quiet || git commit -m "ttt: play [skip ci]"
+          git push
+      - run: gh issue close "$NUM" --comment "Played ✓ — board updated on the profile: https://github.com/Karanjot786"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUM: ${{ github.event.issue.number }}

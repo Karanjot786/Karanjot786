@@ -1,0 +1,17 @@
+{
+  "board": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "turn": "X",
+  "status": "playing",
+  "moves": 0,
+  "lastMove": null
+}

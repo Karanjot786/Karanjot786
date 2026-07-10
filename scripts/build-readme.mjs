@@ -92,6 +92,15 @@ ${shipped ? `shipped       ${shipped}\n` : ""}last push     ${latest.name} · ${
 generated     ${clock} IST · refreshes hourly via GitHub Actions
 \`\`\`
 
+## Play
+
+There's a terminal you can walk around in. No GitHub account, no sign-in —
+it's pure markdown, links all the way down. Find the secret room.
+
+    $ ssh guest@karanjot.dev
+
+▶ [**boot the terminal →**](game/start.md)
+
 [GitHub](https://github.com/${USER}) · [LinkedIn](https://linkedin.com/in/karanjot786) · [X](https://x.com/Karanjotdulay) · [Site](https://karanjot.co.in)
 `;
 
